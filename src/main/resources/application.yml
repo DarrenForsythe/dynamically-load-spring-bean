@@ -1,3 +1,5 @@
 spring:
   application:
     name: Default Application
+server:
+  port: 9412
