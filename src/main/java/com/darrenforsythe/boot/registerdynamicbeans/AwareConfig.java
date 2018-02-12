@@ -47,6 +47,6 @@ public class AwareConfig implements BeanDefinitionRegistryPostProcessor {
 
 	@Override
 	public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry arg0) throws BeansException {
-		throw new IllegalArgumentException("No Operation.");
+		//NoOp
 	}
 }
