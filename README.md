@@ -1,3 +1,3 @@
-# default-boot-app #
+# Dynamically Load Beans #
 
-Basic Spring Boot Application to branch for playing about with different technologies.
+Dynamically loads beans of type `Aware`. THe test will get both beans and verify that the `work` method returns the expected string.
